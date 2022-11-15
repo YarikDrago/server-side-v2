@@ -3,6 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const mailer = require('./nodemailer/nodemailer')
+const googleSheet = require('./googleSheet/googleSheet')
 
 const app = express()
 app.use(express.json())
@@ -33,9 +34,13 @@ app.post('/send_email', async(req, res) => {
 
 app.get('/football_data',  async(req, res) => {
     try {
-        res.status(200).json("Let's play football!")
+        googleSheet().then(subres => {
+            console.log("red",subres)
+            res.status(200).json(subres.values)
+        })
     } catch (e) {
-        console.log("test error: ", e)
+        res.status(404).json({"erorr": "network error"})
+        // console.log("test error: ", e)
     }
 })
 

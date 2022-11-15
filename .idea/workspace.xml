@@ -15,10 +15,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/googleSheet" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\doudo\Desktop\frontend\backend\server_side_v2\googleSheet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="googleSheet.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/googleSheet/googleSheet.js" working-dir="$PROJECT_DIR$/googleSheet">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.googleSheet.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,7 +49,7 @@
       <updated>1636043034559</updated>
       <workItem from="1636043035575" duration="2202000" />
       <workItem from="1636797768714" duration="1424000" />
-      <workItem from="1668498827785" duration="371000" />
+      <workItem from="1668498827785" duration="8610000" />
     </task>
     <servers />
   </component>
@@ -38,9 +57,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1679" height="228" key="GridCell.Tab.0.bottom" timestamp="1668514003976">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1679" height="228" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
+    <state width="1679" height="228" key="GridCell.Tab.0.center" timestamp="1668514003976">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1679" height="228" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
+    <state width="1679" height="228" key="GridCell.Tab.0.left" timestamp="1668514003976">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1679" height="228" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
+    <state width="1679" height="228" key="GridCell.Tab.0.right" timestamp="1668514003976">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1679" height="228" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
     <state x="246" y="19" key="SettingsEditor" timestamp="1668498947971">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1668498947971" />
+    <state x="426" y="207" key="run.anything.popup" timestamp="1668514001244">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="426" y="207" key="run.anything.popup/0.0.1707.920@0.0.1707.920" timestamp="1668514001244" />
   </component>
 </project>
