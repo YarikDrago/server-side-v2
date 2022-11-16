@@ -4,6 +4,7 @@ const express = require('express')
 const cors = require('cors')
 const mailer = require('./nodemailer/nodemailer')
 const googleSheet = require('./googleSheet/googleSheet')
+const transformSheetData = require('./googleSheet/transformSheetData')
 
 const app = express()
 app.use(express.json())
@@ -35,8 +36,9 @@ app.post('/send_email', async(req, res) => {
 app.get('/football_data',  async(req, res) => {
     try {
         googleSheet().then(subres => {
-            console.log("red",subres)
-            res.status(200).json(subres.values)
+            transformSheetData(subres.values)
+            // res.status(200).json(subres.values)
+            res.status(200).json(transformSheetData(subres.values))
         })
     } catch (e) {
         res.status(404).json({"erorr": "network error"})

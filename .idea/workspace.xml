@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="" />
+    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="Add get method for receiving data from google sheet">
+      <change afterPath="$PROJECT_DIR$/googleSheet/transformSheetData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googleSheet/googleSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/googleSheet/googleSheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20SfiGWncIso7NSxev8jb6TL2Al" />
   <component name="ProjectViewState">
@@ -15,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/googleSheet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -50,33 +76,61 @@
       <workItem from="1636043035575" duration="2202000" />
       <workItem from="1636797768714" duration="1424000" />
       <workItem from="1668498827785" duration="8610000" />
+      <workItem from="1668514018162" duration="20784000" />
     </task>
+    <task id="LOCAL-00001" summary="Add get method for receiving data from google sheet">
+      <created>1668514119802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668514119802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add get method for receiving data from google sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add get method for receiving data from google sheet" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1679" height="228" key="GridCell.Tab.0.bottom" timestamp="1668514003976">
+    <state width="1679" height="228" key="GridCell.Tab.0.bottom" timestamp="1668601326934">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
-    <state width="1679" height="228" key="GridCell.Tab.0.center" timestamp="1668514003976">
+    <state width="1679" height="228" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
+    <state width="1679" height="228" key="GridCell.Tab.0.center" timestamp="1668601326934">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
-    <state width="1679" height="228" key="GridCell.Tab.0.left" timestamp="1668514003976">
+    <state width="1679" height="228" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
+    <state width="1679" height="228" key="GridCell.Tab.0.left" timestamp="1668601326934">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
-    <state width="1679" height="228" key="GridCell.Tab.0.right" timestamp="1668514003976">
+    <state width="1679" height="228" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
+    <state width="1679" height="228" key="GridCell.Tab.0.right" timestamp="1668601326934">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1668514003976" />
+    <state width="1679" height="228" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
     <state x="246" y="19" key="SettingsEditor" timestamp="1668498947971">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1668498947971" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1668514183784">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1668514183784" />
     <state x="426" y="207" key="run.anything.popup" timestamp="1668514001244">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
