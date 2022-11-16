@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="Transform google sheet array data to object">
+    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="Add to data object number of rows and columns of table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/googleSheet/transformSheetData.js" beforeDir="false" afterPath="$PROJECT_DIR$/googleSheet/transformSheetData.js" afterDir="false" />
     </list>
@@ -74,7 +74,7 @@
       <workItem from="1636043035575" duration="2202000" />
       <workItem from="1636797768714" duration="1424000" />
       <workItem from="1668498827785" duration="8610000" />
-      <workItem from="1668514018162" duration="21756000" />
+      <workItem from="1668514018162" duration="22606000" />
     </task>
     <task id="LOCAL-00001" summary="Add get method for receiving data from google sheet">
       <created>1668514119802</created>
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668601832953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add to data object number of rows and columns of table">
+      <created>1668611187969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668611187969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,33 +117,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add get method for receiving data from google sheet" />
     <MESSAGE value="Transform google sheet array data to object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transform google sheet array data to object" />
+    <MESSAGE value="Add to data object number of rows and columns of table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add to data object number of rows and columns of table" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1679" height="228" key="GridCell.Tab.0.bottom" timestamp="1668601326934">
+    <state width="1679" height="152" key="GridCell.Tab.0.bottom" timestamp="1668618535212">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
-    <state width="1679" height="228" key="GridCell.Tab.0.center" timestamp="1668601326934">
+    <state width="1679" height="152" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1668618535212" />
+    <state width="1679" height="152" key="GridCell.Tab.0.center" timestamp="1668618535212">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
-    <state width="1679" height="228" key="GridCell.Tab.0.left" timestamp="1668601326934">
+    <state width="1679" height="152" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1668618535212" />
+    <state width="1679" height="152" key="GridCell.Tab.0.left" timestamp="1668618535212">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
-    <state width="1679" height="228" key="GridCell.Tab.0.right" timestamp="1668601326934">
+    <state width="1679" height="152" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1668618535212" />
+    <state width="1679" height="152" key="GridCell.Tab.0.right" timestamp="1668618535212">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1679" height="228" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1668601326934" />
+    <state width="1679" height="152" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1668618535212" />
     <state x="246" y="19" key="SettingsEditor" timestamp="1668498947971">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1668498947971" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1668601838728">
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1668611196646">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1668601838728" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1668611196646" />
     <state x="426" y="207" key="run.anything.popup" timestamp="1668514001244">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

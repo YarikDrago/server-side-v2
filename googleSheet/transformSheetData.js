@@ -103,9 +103,7 @@ function transformSheetData(data){
         tableData: {
             amountRows: amountRows,
             amountColumns: amountColumns,
-            table: {
-                newData
-            }
+            table: newData
         }
     }
 }
