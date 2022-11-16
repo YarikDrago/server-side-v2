@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="Add get method for receiving data from google sheet">
-      <change afterPath="$PROJECT_DIR$/googleSheet/transformSheetData.js" afterDir="false" />
+    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="Transform google sheet array data to object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/googleSheet/googleSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/googleSheet/googleSheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googleSheet/transformSheetData.js" beforeDir="false" afterPath="$PROJECT_DIR$/googleSheet/transformSheetData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <workItem from="1636043035575" duration="2202000" />
       <workItem from="1636797768714" duration="1424000" />
       <workItem from="1668498827785" duration="8610000" />
-      <workItem from="1668514018162" duration="20784000" />
+      <workItem from="1668514018162" duration="21756000" />
     </task>
     <task id="LOCAL-00001" summary="Add get method for receiving data from google sheet">
       <created>1668514119802</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668514119802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Transform google sheet array data to object">
+      <created>1668601832953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668601832953</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add get method for receiving data from google sheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add get method for receiving data from google sheet" />
+    <MESSAGE value="Transform google sheet array data to object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transform google sheet array data to object" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1679" height="228" key="GridCell.Tab.0.bottom" timestamp="1668601326934">
@@ -127,10 +133,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1668498947971" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1668514183784">
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1668601838728">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1668514183784" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1668601838728" />
     <state x="426" y="207" key="run.anything.popup" timestamp="1668514001244">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

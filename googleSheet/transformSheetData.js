@@ -100,7 +100,13 @@ function transformSheetData(data){
     return {
         participants: participants,
         countries: countries,
-        tableData: newData
+        tableData: {
+            amountRows: amountRows,
+            amountColumns: amountColumns,
+            table: {
+                newData
+            }
+        }
     }
 }
 
