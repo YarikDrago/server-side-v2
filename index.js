@@ -6,9 +6,28 @@ const mailer = require('./nodemailer/nodemailer')
 const googleSheet = require('./googleSheet/googleSheet')
 const transformSheetData = require('./googleSheet/transformSheetData')
 
+
+
 const app = express()
 app.use(express.json())
 app.use(cors())
+const WSServer = require('express-ws')(app)
+const aWss = WSServer.getWss()
+
+const footballChatMsg = ['connected']
+
+app.ws('/footballchat', (ws, req)=>{
+    ws.on('message', (msg) => {
+        console.log("msg", msg)
+        // ws.send('yes! yes! I can hear you')
+        // для все подключенных клиентов
+        aWss.clients.forEach(client => {
+            console.log("aws")
+            // client.send('yes! yes! I can hear you')
+            client.send(msg)
+        })
+    })
+})
 
 app.get('/test',  async(req, res) => {
     try {
@@ -45,6 +64,7 @@ app.get('/football_data',  async(req, res) => {
         // console.log("test error: ", e)
     }
 })
+
 
 const start = async () => {
     const PORT = process.env.PORT || 5000
