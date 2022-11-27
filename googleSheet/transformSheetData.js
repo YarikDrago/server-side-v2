@@ -18,7 +18,7 @@ function transformSheetData(data){
         }
         nameColumn += 3
     }
-    console.log("participants", participants)
+    // console.log("participants", participants)
 
 
     // work with all data
@@ -94,7 +94,7 @@ function transformSheetData(data){
 
         }
     }
-    console.log(newData)
+    // console.log(newData)
     countries = countries.sort()
     // console.log("countries", countries)
     return {

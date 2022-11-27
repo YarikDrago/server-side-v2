@@ -17,10 +17,11 @@ const transporter = nodemailer.createTransport({
 })
 
 const mailer = (name, surname, email, telephone, message) => {
+    console.log("forming message")
     const messageSMTP = {
         from: process.env.MAIL_FROM,
         to: 'doudou239@gmail.com',
-        subject: 'Test email 3',
+        subject: 'Test email 4',
         html:`
             <div>
                 <h3>From: ${name} ${surname}</h3>

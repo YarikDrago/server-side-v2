@@ -1,5 +1,6 @@
 require('dotenv').config()
 
+const axios = require('axios')
 const express = require('express')
 const http = require('http')
 const https = require('https');
@@ -49,6 +50,7 @@ app.get('/test',  async(req, res) => {
     }
 })
 
+
 app.post('/send_email', async(req, res) => {
     try {
         const {name} = req.body
@@ -57,6 +59,7 @@ app.post('/send_email', async(req, res) => {
         const {telephone} = req.body
         const {message} = req.body
         console.log("Getted name: ", name)
+        console.log("next mailer")
         mailer(name, surname, email, telephone, message)
         res.status(200).json('Res: message was sent') //status 200 - send ('OK')
     } catch (e) {
@@ -66,22 +69,38 @@ app.post('/send_email', async(req, res) => {
 
 app.get('/football_data',  async(req, res) => {
     try {
-        googleSheet().then(subres => {
-            transformSheetData(subres.values)
-            // res.status(200).json(subres.values)
+        await googleSheet().then(subres => {
             res.status(200).json(transformSheetData(subres.values))
         })
     } catch (e) {
-        res.status(404).json({"erorr": "network error"})
+        // res.status(404).json({"erorr": "network error"})
+        res.status(e.code).json({"erorr": "network error"})
         // console.log("test error: ", e)
     }
 })
 
+app.get('/testhttps', async(req, res) => {
+    try{
+        const promise = await axios.get("https://jsonplaceholder.typicode.com/users/1")
+        console.log("json", promise.data)
+        res.status(200).json(promise.data)
+    } catch (e) {
 
-// const options = {
-//     key: fs.readFileSync('key.pem'),
-//     cert: fs.readFileSync('cert.pem')
-// };
+    }
+})
+
+app.get('/test2', async(req, res) => {
+    try{
+        const promise = await https.get("https://jsonplaceholder.typicode.com/users/1")
+        console.log("json", promise.data)
+        res.status(200).json(promise.data)
+    } catch (e) {
+
+    }
+})
+
+app.use('*', express.static(path.join(__dirname, '', directoryToServe)))
+
 
 const start = async () => {
     const PORT = Number(process.env.PORT || 5000)

@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="Add WebSocket primal sender for football chat">
+    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="comment WebSocket. Make universal usage for http and https. Disable work of external request like Contact Form and Football data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googleSheet/transformSheetData.js" beforeDir="false" afterPath="$PROJECT_DIR$/googleSheet/transformSheetData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemailer/nodemailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodemailer/nodemailer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../frontend/my_website_ts_v1_2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -75,7 +77,8 @@
       <workItem from="1636797768714" duration="1424000" />
       <workItem from="1668498827785" duration="8610000" />
       <workItem from="1668514018162" duration="46890000" />
-      <workItem from="1669223089762" duration="3607000" />
+      <workItem from="1669223089762" duration="6577000" />
+      <workItem from="1669275727244" duration="21675000" />
     </task>
     <task id="LOCAL-00001" summary="Add get method for receiving data from google sheet">
       <created>1668514119802</created>
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668707517689</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="comment WebSocket. Make universal usage for http and https. Disable work of external request like Contact Form and Football data">
+      <created>1669230617688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669230617688</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,9 +146,14 @@
     <MESSAGE value="Add to data object number of rows and columns of table" />
     <MESSAGE value="Delete spare object element &quot;newData&quot; from football object" />
     <MESSAGE value="Add WebSocket primal sender for football chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add WebSocket primal sender for football chat" />
+    <MESSAGE value="comment WebSocket. Make universal usage for http and https. Disable work of external request like Contact Form and Football data" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment WebSocket. Make universal usage for http and https. Disable work of external request like Contact Form and Football data" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="581" y="157" key="FileChooserDialogImpl" timestamp="1669279847264">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="581" y="157" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1669279847264" />
     <state width="1679" height="152" key="GridCell.Tab.0.bottom" timestamp="1669222971287">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -159,10 +174,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1668498947971" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1668707678209">
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1669230620051">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1668707678209" />
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1669230620051" />
     <state x="426" y="207" key="run.anything.popup" timestamp="1668514001244">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
