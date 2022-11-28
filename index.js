@@ -8,7 +8,8 @@ const fs = require('fs');
 const cors = require('cors')
 const path = require('path')
 
-const mailer = require('./nodemailer/nodemailer')
+//const mailer = require('./nodemailer/nodemailer')
+const newMailer = require('./newMailer/newMailer')
 const googleSheet = require('./googleSheet/googleSheet')
 const transformSheetData = require('./googleSheet/transformSheetData')
 
@@ -51,17 +52,37 @@ app.get('/test',  async(req, res) => {
 })
 
 
+// app.post('/send_email', async(req, res) => {
+//     try {
+//         const {name} = req.body
+//         const {surname} = req.body
+//         const {email} = req.body
+//         const {telephone} = req.body
+//         const {message} = req.body
+//         console.log("Getted name: ", name)
+//         console.log("next mailer")
+//         mailer(name, surname, email, telephone, message)
+//         res.status(200).json('Res: message was sent') //status 200 - send ('OK')
+//     } catch (e) {
+//         console.log('sending email error: ', e)
+//     }
+// })
+
 app.post('/send_email', async(req, res) => {
+    const {name} = req.body
+    const {surname} = req.body
+    const {email} = req.body
+    const {telephone} = req.body
+    const {message} = req.body
+    console.log("Getted name: ", name)
+    console.log("next mailer 2")
     try {
-        const {name} = req.body
-        const {surname} = req.body
-        const {email} = req.body
-        const {telephone} = req.body
-        const {message} = req.body
-        console.log("Getted name: ", name)
-        console.log("next mailer")
-        mailer(name, surname, email, telephone, message)
-        res.status(200).json('Res: message was sent') //status 200 - send ('OK')
+        await newMailer(name, surname, email, telephone, message)
+            .then(subres => {
+                const subresArray = subres.split(' ')
+                console.log("subres",subres)
+                res.status(subresArray[0]).json(subresArray[1]) //status 200 - send ('OK')
+            })
     } catch (e) {
         console.log('sending email error: ', e)
     }

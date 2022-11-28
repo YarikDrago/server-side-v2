@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="comment WebSocket. Make universal usage for http and https. Disable work of external request like Contact Form and Football data">
+    <list default="true" id="df26a72d-78a8-4b34-b9c0-494deaf8ab9a" name="Default Changelist" comment="Fix double request of football data.">
+      <change afterPath="$PROJECT_DIR$/newMailer/newMailer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/googleSheet/transformSheetData.js" beforeDir="false" afterPath="$PROJECT_DIR$/googleSheet/transformSheetData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemailer/nodemailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodemailer/nodemailer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <workItem from="1668498827785" duration="8610000" />
       <workItem from="1668514018162" duration="46890000" />
       <workItem from="1669223089762" duration="6577000" />
-      <workItem from="1669275727244" duration="21675000" />
+      <workItem from="1669275727244" duration="36907000" />
     </task>
     <task id="LOCAL-00001" summary="Add get method for receiving data from google sheet">
       <created>1668514119802</created>
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669230617688</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix double request of football data.">
+      <created>1669570137081</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669570137081</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,9 +153,14 @@
     <MESSAGE value="Delete spare object element &quot;newData&quot; from football object" />
     <MESSAGE value="Add WebSocket primal sender for football chat" />
     <MESSAGE value="comment WebSocket. Make universal usage for http and https. Disable work of external request like Contact Form and Football data" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment WebSocket. Make universal usage for http and https. Disable work of external request like Contact Form and Football data" />
+    <MESSAGE value="Fix double request of football data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix double request of football data." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="569" y="244" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1669582438113">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="569" y="244" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1669582438113" />
     <state x="581" y="157" key="FileChooserDialogImpl" timestamp="1669279847264">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -174,14 +185,14 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="246" y="19" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1668498947971" />
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1669230620051">
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2" timestamp="1669570909981">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1669230620051" />
-    <state x="426" y="207" key="run.anything.popup" timestamp="1668514001244">
+    <state x="346" y="129" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1669570909981" />
+    <state x="426" y="207" key="run.anything.popup" timestamp="1669631337830">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="426" y="207" key="run.anything.popup/0.0.1707.920@0.0.1707.920" timestamp="1668514001244" />
+    <state x="426" y="207" key="run.anything.popup/0.0.1707.920@0.0.1707.920" timestamp="1669631337830" />
     <state x="432" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1669212383272">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
